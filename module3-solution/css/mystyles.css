@@ -36,6 +36,9 @@ body {
 .navbar-header button.navbar-toggle {	
 	margin-top: 15px;
 }
+.navbar-toggle {
+	border: 1px solid #483D8B
+}
 #nav-list {
 	margin-top: 10px;
 	margin-top: 0.5px;
@@ -134,11 +137,11 @@ h2 {
 .navbar-brand h1{
 	font-size: 1.6em;
 }
-#colnav a { /* Collapsed nav menu glyph */
-		font-size: 1.2em;
-	}
-#colnav a span {
-		font-size: 1em;
-		margin-right: 5px;
+#collapsable-nav {
+	border-top: black solid 2px;
+}
+#collapsable-nav a span {
+	font-size: 1em;
+	margin-right: 5px;
 }
 }
