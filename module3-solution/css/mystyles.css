@@ -9,15 +9,13 @@ body {
 #header-nav {
 	background-color: #D8BFD8;
 	border-radius: 0;
-	border: 0;
+	border-bottom: 1px solid #483D8B;
 	opacity: 1;
 }
-
 .navbar-brand {
 	padding-top: 25px;
 }
-
-.navbar-brand h1 { /*Restaurant name */
+.navbar-brand h1 { 
 	color: #483D8B;
 	font-size: 1.5em;
 	font-weight: 800;
@@ -26,7 +24,6 @@ body {
 	margin-bottom: 0;
 	line-height: .75;
 }
-
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 }
@@ -34,27 +31,26 @@ body {
 	border: 1px solid #483D8B;
 }
 .navbar-header button.navbar-toggle {	
-	margin-top: 15px;
+	margin: 15px;
 }
 .navbar-toggle {
-	border: 1px solid #483D8B
+	border-bottom: 1px solid #483D8B
 }
 #nav-list {
-	margin-top: 10px;
-	margin-top: 0.5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 #nav-list a {
 	background: #191970;
-	border: .5px solid white;
+	border-bottom: 1px solid #483D8B;
 }
 #nav-list a span {
 		font-size: 1.2em;
 		color: white;
 }
 #nav-list a:hover, #nav-list a:focus {
-	background-color: #E6E6FA;
+	background-color: #483D8B;
 }
-
 
 /******* END HEADER ******/
 
@@ -70,7 +66,7 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 25px;
-	padding: 20px;
+	padding: 15px;
 	width: 100%;
 	background-color: #D8BFD8;
 }
@@ -91,6 +87,7 @@ h2 {
 }
 }
 
+
 /**************** Medium devices only *************/
 @media (min-width: 992px) and (max-width: 1199px) {
 /*** Header ***/
@@ -106,6 +103,7 @@ h2 {
 	font-size: 1.8em;
 }
 }
+
 
 /*************** Small devices only ***************/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -124,24 +122,6 @@ h2 {
 /*************** Extra small devices only *******/
 @media (max-width: 767px) {
 .navbar-brand h1 { /* Restaurant name */
-	padding-top: 10px;
-	font-size: 5vw; 
-}
-#header-nav {
-	height: 70px;
-}
-.navbar-brand {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-.navbar-brand h1{
-	font-size: 1.6em;
-}
-#collapsable-nav {
-	border-top: black solid 2px;
-}
-#collapsable-nav a span {
-	font-size: 1em;
-	margin-right: 5px;
+	font-size: 1.6em; 
 }
 }
