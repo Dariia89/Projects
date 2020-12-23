@@ -111,13 +111,6 @@
                         color: #222224;
                     }
                 }
-
-                @-moz-document url-prefix() {
-                    .sub-email {
-                        padding-left: 28px;
-                    }
-                }
-        
                 .sub-btn {
                     @include font();
                     /* line-height: 54px; */
